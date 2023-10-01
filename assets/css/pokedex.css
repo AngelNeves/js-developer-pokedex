@@ -84,6 +84,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    color: white;
 }
 
 .pokemon .number {
@@ -163,3 +164,28 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+.pokemon .habilidades {
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+   justify-content: space-between; 
+  }
+  
+  .pokemon .habilidades .abilities{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .pokemon .habilidades .abilities .ability {
+    background-color: white;
+    color: black;
+    padding: .25rem .5rem;
+    margin:.25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    text-align: center;
+    
+  }
+  
